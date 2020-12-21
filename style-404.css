@@ -2,3 +2,12 @@ body {
   background: url('backround1.gif');
   text-align: center;
 }
+#main {
+width: 1000px;
+height: 600px;
+margin: 25px auto;
+border: solid 1px #ff0000;
+border-bottom: solid 0px;
+padding: 10px;
+background: #312e2e;
+}
