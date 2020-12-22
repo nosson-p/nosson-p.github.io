@@ -1,4 +1,14 @@
-<h1> this is yours you can do what youwish</h1>
-<audio controls autoplay>
-<source src="/song.mp3" type="audio/mpeg">
-</audio>
+<html>
+<head>
+<title>404 erorr</title>
+<body>
+<script>
+    var myAudio = new Audio('song.mp3');
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+    myAudio.play();
+</script>
+</body>
+</html>
