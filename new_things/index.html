@@ -3,13 +3,8 @@
 <title>404 erorr</title>
 <body>
 <h1>this is a test of java mp3 loop</h1>
-<script>
-    var myAudio = new Audio('song.mp3');
-    myAudio.addEventListener('ended', function() {
-        this.currentTime = 0;
-        this.play();
-    }, false);
-    myAudio.play();
-</script>
+<audio autoplay loop>
+      <source src="johann_sebastian_bach_air.mp3">
+</audio>
 </body>
 </html>
